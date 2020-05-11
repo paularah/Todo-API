@@ -4,7 +4,6 @@
   "description": "",
   "main": "./server/server.js",
   "scripts": {
-    "pretest": "eslint --ignore-path .gitignore .",
     "test": "mocha server/**/*.test.js",
     "test-watch": "nodemon --exec \"npm test\""
   },
@@ -23,8 +22,10 @@
     "crypto-js": "^4.0.0",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
     "mongodb": "^3.5.5",
-    "mongoose": "^5.9.7"
+    "mongoose": "^5.9.7",
+    "validator": "^13.0.0"
   },
   "devDependencies": {
     "eslint": "^6.8.0",

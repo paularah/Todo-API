@@ -1,6 +1,6 @@
 let mongoose = require('mongoose');
 
-// DB schema 
+// DB schema +  
 
 let schema = new mongoose.Schema({
     text: {
